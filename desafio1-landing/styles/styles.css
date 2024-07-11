@@ -1,0 +1,90 @@
+/* Importando las fuentes */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    color: white!important;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Roboto !important;    
+}
+
+.navbar {
+    position: absolute!important;
+    top: 0;
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0) !important; /* Fondo negro semi-transparente */
+    z-index: 1;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500px!important;
+   
+}
+
+
+
+.landing-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se escale correctamente */
+}
+
+.landing-text {
+    position: absolute;
+    color: white; /* O cualquier color que contraste con la imagen */
+    font-size: 2rem; /* Ajusta según sea necesario */
+    font-weight: bold; /* Opcional */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Para mejor legibilidad */
+    z-index: 2;
+    font-weight: 700;
+font-family:Roboto;
+font-size: 90px;
+color: #ffffff;
+margin-right: 50%;
+
+}
+
+/* Footer */
+.main-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(28, 27, 27, 0); /* Fondo semi-transparente */
+    padding: 1rem;
+    height: 30vh;
+}
+
+.main-footer .redes {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: #000000;
+}
+
+
