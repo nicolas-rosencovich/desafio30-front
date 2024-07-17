@@ -1,0 +1,87 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family: "Playfair Display";
+    font-optical-sizing: auto;
+    font-weight: 16;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../assets/pexels-alexwolfmx-14541409.jpg');
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.39);
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0, 5px 10px, rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 500px;
+  margin-left: 500px;
+  margin-top: 200px;
+  }
+
+  form .title {
+
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  
+  }
+  
+  form label {
+    margin-bottom: 35px
+   
+  }
+  
+  form label .fa-solid {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.911);
+    margin-right: 10px;
+  }
+  
+  
+  form label input {
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 1px rgba(6, 61, 115, 0.5);
+    padding: 0px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.562);
+  }
+  
+  form label input ::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.097);
+    
+  }
+  
+  form .link {
+    color: rgba(0, 0, 0, 0.808);
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  form button {
+    color: white;
+    border: none;
+    background: linear-gradient(to left, #1b311e, #081d17);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
