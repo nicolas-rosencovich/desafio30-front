@@ -9,24 +9,25 @@
 :root{
 
  
-    --OxfordBlue:#001B2E;
-    --Charcoal: #294c60;
-    --FrenchGray:#ADB6C4;
-    --PapayaChip:#FFEFD3;
-    --Peach: #FFC49B;
+  --VanDyke:#433633 ;
+  --WalnutBrown:#5C5552 ;
+  --BattleshipGray:#8F857D;
+  --Dun:#DECBB7;
+  --Magnolia:#F7F0F5;
+
 
 
 
 }
 body{
-    color: var(--Charcoal);
+    color: var(--Magnolia);
     font-family: "Nunito";
 font-size: 1rem;
     margin: 0;
     padding: 0;
     
     box-sizing: border-box;
-    background-color: var(--PapayaChip);
+    background-color:var(--Dun);
   /*   background-image: linear-gradient(to right, #777777 0%, #5c98c4 100%); */
 /*   background-image: url("../assets/img/stitch1.jpg"); */
 }
@@ -75,11 +76,12 @@ margin-bottom: 20px;
     display: block;
     border: 1px solid rgb(0, 0, 0);
     padding: 16px;
-    color: var(--PapayaChip);
+    color: var(--OxfordBlue);
     border-radius: 180px;
-    box-shadow: 5px 5px rgba(4, 38, 55, 0.752);
+   /*  box-shadow: 5px 5px rgba(4, 38, 55, 0.752); */
+   box-shadow: 5px 5px rgba(5, 48, 69, 0.752);
     text-align: center;
-    background-color: var(--Charcoal);
+    background-color: var(--BattleshipGray);
 }
 .link-item a:hover{
     background-color: var(--Peach);
