@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('../assets/pexels-alexwolfmx-14541409.jpg');
+    background-image: url('../assets/mtn3.jpg');
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -29,6 +29,7 @@ form {
     width: 500px;
   margin-left: 500px;
   margin-top: 200px;
+  backdrop-filter: blur(5px);
   }
 
   form .title {
@@ -36,12 +37,18 @@ form {
     color: rgb(0, 0, 0);
     font-size: 65px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   
   }
-  
+  .sub-title{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
   form label {
-    margin-bottom: 35px
+    margin-bottom: 35px;
+  
    
   }
   
@@ -49,6 +56,7 @@ form {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.911);
     margin-right: 10px;
+    
   }
   
   
@@ -61,6 +69,7 @@ form {
     font-size: 18px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.562);
+    backdrop-filter: blur(10px);
   }
   
   form label input ::-moz-placeholder {
@@ -78,7 +87,7 @@ form {
   form button {
     color: white;
     border: none;
-    background: linear-gradient(to left, #1b311e, #081d17);
+    background: linear-gradient(to left, #3f4540, #2d3e39);
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;
