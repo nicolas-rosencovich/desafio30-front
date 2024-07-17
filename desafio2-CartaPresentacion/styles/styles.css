@@ -1,0 +1,95 @@
+/* Importacion de fuentes de google */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=La+Belle+Aurore&family=Marvel:ital,wght@1,700&family=Nunito:ital,wght@0,300;0,700;1,1000&family=RocknRoll+One&family=Sansita:ital@1&display=swap');
+
+
+
+/* COLORS */
+
+:root{
+
+ 
+    --OxfordBlue:#001B2E;
+    --Charcoal: #294c60;
+    --FrenchGray:#ADB6C4;
+    --PapayaChip:#FFEFD3;
+    --Peach: #FFC49B;
+
+
+
+}
+body{
+    color: var(--Charcoal);
+    font-family: "Nunito";
+font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    background-color: var(--PapayaChip);
+  /*   background-image: linear-gradient(to right, #777777 0%, #5c98c4 100%); */
+/*   background-image: url("../assets/img/stitch1.jpg"); */
+}
+
+/* IMAGEN PERFIL */
+
+h1{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+section{
+display: flex;
+flex-direction: column;
+max-width: 600px;
+margin:auto ;
+align-items: center;
+margin-bottom: 20px;
+
+}
+
+section.header{
+    text-align: center;
+}
+section.header img{
+max-width: 170px;
+border-radius: 50%;
+max-height: auto;
+
+}
+
+/* LINKS */
+.link-item{
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+.link-item a{
+    width: 100%;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+    color: var(--PapayaChip);
+    border-radius: 180px;
+    box-shadow: 5px 5px rgba(4, 38, 55, 0.752);
+    text-align: center;
+    background-color: var(--Charcoal);
+}
+.link-item a:hover{
+    background-color: var(--Peach);
+}
+
+/* FOOTER */
+footer a{
+  color: #3D5A80;
+    box-shadow:5px 5px rgb(0, 0, 0);
+}
+
+
+    
