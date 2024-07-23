@@ -19,10 +19,12 @@
   
   --Vanilla:#e5d2b8;
 
-  --Matcha:#809671;
+  --Matcha:#809671fe;
   --Pistache:#b3b792;
   --Carob:#725c3a;
-  
+  --MatchaDegrade:#8096719b;
+
+  --Darkolive:#556b2fd7;
 
   /* Algunas partes del texto */
   --Blue2: #4475F2;
@@ -118,7 +120,7 @@ color: var(--Matcha);
 
 .main-text{
   color:var(--Carob);
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin-top: 5vh;
 
 }
@@ -150,44 +152,70 @@ border: var(--Pistache);
 
 /* Nosotros ----------- */
 
-.segundos-titulos{
+/* Nosotros ----------- */
+.nosotros-container1{
+background-color:var(--MatchaDegrade);
+border:0.5px solid #80967134;
+border-radius: 8px;
+
+}
+.segundos-titulos {
   margin-left: 15vh;
- 
- 
+  text-align: left;
 }
 
-.mini-subtitulo{
+.mini-subtitulo {
   color: var(--Carob);
   font-size: 1rem;
-
 }
 
-.subtitulos{
-  color: var(--Black);
-  font-family:'Plus Jakarta Sans', sans-serif;
+.subtitulos {
+  color: var(--Darkolive);
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 55px;
-  font-weight: 700  ;
+  font-weight: 700;
   height: 70px;
- 
-
 }
 
-.nosotros-subtit{
+.nosotros-subtit {
   font-weight: bold;
-  font-size: 24px;
-  color: var(--Black);
+  font-size: 69px;
+  color: var(--Pistache);
+  margin-bottom: 10px;
+  width: 350px;
+  margin-left: 5px;
+  
 }
-.nosotros-container{
+
+.nosotros-container {
   display: flex;
   flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-margin-left: 15%;
-font-size: 1rem;
-color: var(--Grey1);
-margin-top: 5vh;
-margin-bottom: 5vh;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 8%;
+  font-size: 1.5rem;
+  color: var(--Grey1);
+  margin-top: 20px;
+  margin-bottom: 2vh;
+  min-height: 70vh; /* Asegura que la sección ocupe al menos la altura completa de la ventana */
+  padding: 20px;
+
+ 
 }
+
+.nosotros-container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.nosotros-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 
 /* Estilo para las secciones */
 .nosotros-container section {
@@ -200,7 +228,26 @@ margin-bottom: 5vh;
 }
 
 
+
+.section-nos{
+/*   background-color:var(--Vanilla); */
+background-color:#e5d2b83a;
+  border-radius: 40px;
+  backdrop-filter: blur;
+  border:1px solid #e5d2b89f ;
+
+}
+
+.section-nos-txt{
+color: var(--Carob);
+}
+
 /* Servicios ---------------*/
+
+.section-serv1{
+  background-color: #80967112;
+ 
+}
 .subtitulo-servicios{
   font-size: 32px;
   font-weight: 800;
@@ -214,19 +261,42 @@ margin-bottom: 5vh;
 }
 
 
-.section-servicios{
+.section-servicios {
   display: flex;
-  justify-content: flex-end;
-
+  justify-content: center; /* Centra el contenido */
+  align-items: center; /* Centra verticalmente */
+  padding: 20px;
 }
 
-.img-servicio1{
-display: flex;
-width: 1000px;
-
+.contenido-servicios {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  gap: 20px; /* Espacio entre la imagen y el texto */
 }
 
-.img-servicio2{
-  display: flex;
-width: 1000px;
+.img-container {
+  flex: 1; /* Toma el espacio necesario */
+}
+
+.img-servicio1 {
+  max-width: 100%;
+  height: auto; /* Asegura que la imagen se redimensione proporcionalmente */
+}
+
+.texto-container {
+  flex: 2; /* Toma el espacio necesario */
+}
+
+.subtitulo-servicios {
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  color: var(--Black);
+}
+
+.text-servicios {
+  font-size: 1
+  rem;
+  color: var(--Grey1);
 }
