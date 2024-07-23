@@ -157,7 +157,7 @@ border: var(--Pistache);
 }
 
 .mini-subtitulo{
-  color: #4475F2;
+  color: var(--Carob);
   font-size: 1rem;
 
 }
@@ -217,11 +217,16 @@ margin-bottom: 5vh;
 .section-servicios{
   display: flex;
   justify-content: flex-end;
+
 }
 
 .img-servicio1{
 display: flex;
+width: 1000px;
+
 }
 
 .img-servicio2{
+  display: flex;
+width: 1000px;
 }

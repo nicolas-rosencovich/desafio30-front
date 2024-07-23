@@ -1,0 +1,91 @@
+/* FONT */
+
+
+@font-face {
+    font-family: prime;
+    src: url(../assets/fonts/Season\ Prime.otf);
+}
+:root{
+    --BabyPowder:#FFFFFA;
+--verde1:#0D5C63;
+--verde2:#44A1A0;
+--celeste1:#44A1A0;
+--Turquesa:#44A1A0;
+
+}
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    background-image: url("../assets/background1.jpg");
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+
+}
+
+
+/* SECTIONS index */
+section{
+padding: 8px;
+display: inline-block;
+color: var(--BabyPowder);
+margin-left: 50px;
+margin-right: 8px;
+background-color: rgba(255, 255, 255, 0.275);
+font-size: 1rem;
+justify-content: space-around;
+margin-top: 100px;
+/*  width: 30rem; */
+max-width: 400px;
+height: 70vh;
+border-radius: 1rem;
+font-weight: 300;
+box-shadow: 1px 2px 2px 1px rgba(197, 196, 196, 0.614);
+backdrop-filter: blur(30px);
+   
+}
+
+/* hover a las secciones */
+ section:hover{
+    background-color:  rgba(255, 255, 255, 0.164);
+    color:white;
+    backdrop-filter: blur(30px);
+
+   
+
+ }
+
+
+ .h2-section{
+    font-family: prime;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-left: 2px;
+    padding: 5px;
+
+}
+
+
+
+.section-1{
+
+margin-left: 270px;
+}
+
+
+.section-2{
+    
+height: 520px;
+margin: 5px;
+}
+
+
+.section-3{
+
+     margin-left: 5px;
+}
+
+
